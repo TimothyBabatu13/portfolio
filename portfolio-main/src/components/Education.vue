@@ -1,0 +1,28 @@
+<template>
+  <section
+    class="flex items-start flex-col lg:flex-row w-full justify-between px-4 lg:-px-0"
+  >
+    <h1 class="uppercase font-normal text-4xl lg:text-3xl xl:text-7xl">
+      My Education
+    </h1>
+    <div class="max-w-3xl w-full mt-3 lg:mt-0">
+      <div>
+        <div class="flex items-center justify-between">
+          <h3 class="text-xl lg:text-2xl xl:text-3xl font-medium">
+            FEDERAL UNIVERSITY OF TECHNOLOGY, MINNA
+          </h3>
+          <!-- <p class=" font-normal text-base lg:text-lg">
+            February 2020 - Present
+          </p> -->
+        </div>
+        <p class="font-semibold text-lg text-[#D3E97A]">
+          BTECH.ENG Agricultural and BioResources Engineering
+        </p>
+      </div>
+      <li class="text-lg ">
+        <span class="font-bold">Coursework</span>: Engineering, Web
+        Programming
+      </li>
+    </div>
+  </section>
+</template>
