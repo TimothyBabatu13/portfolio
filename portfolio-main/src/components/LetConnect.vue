@@ -83,21 +83,21 @@ onMounted(async () => {
         <p>
           Say hello at
           <a
-            href="mailto:okpeonoja18@gmail.com"
+            href="mailto:knbtimothy@gmail.com"
             class="font-normal text-base border-b border-b-[#D3E97A]"
-            >okpeonoja18@gmail.com</a
+            >knbtimothy@gmail.com</a
           ><br />
           <RouterLink
             to="#"
             class="font-normal text-base border-b border-b-[#D3E97A]"
-            >+2348109942162</RouterLink
+            >+2349070543671</RouterLink
           >
         </p>
         <p>
           For more info, here’s my
           <a
-            href="/Okpeonojagodwin_Resume.pdf"
-            download="Okpeonojagodwin_Resume.pdf"
+            href="/timothy_resume.pdf"
+            download="timothy_resume.pdf"
             class="font-normal text-base border-b border-b-[#D3E97A]"
           >
             resume
@@ -116,7 +116,7 @@ onMounted(async () => {
         </div>
       </div>
       <p class="text-[#c7c7c7] font-medium text-base hidden lg:flex">
-        © 2024 Okpe Onoja Godwin
+        © 2024 TIMOTHY BABATUNDE AKANBI
       </p>
     </div>
     <div
