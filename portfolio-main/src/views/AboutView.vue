@@ -39,7 +39,7 @@ onMounted(async () => {
     <AboutMe :about-route="true" />
     <Education />
     <Capabilities />
-    <Experience />
+    
     <LetConnect />
   </div>
 </template>

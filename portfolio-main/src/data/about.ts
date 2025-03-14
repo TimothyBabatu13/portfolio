@@ -9,7 +9,7 @@ export const capabilities = [
   },
   {
     label: "Tools",
-    skills: ["Git"],
+    skills: ["Git", "Github", "Postman"],
   },
   {
     label: "Platforms",

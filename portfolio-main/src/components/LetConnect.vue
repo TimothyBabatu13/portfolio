@@ -104,19 +104,19 @@ onMounted(async () => {
           </a>
         </p>
         <div class="flex items-center gap-3">
-          <IconLink link="https://linkedin.com/in/okpe-onoja">
+          <IconLink link="https://www.linkedin.com/in/timothy-akanbi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <LinkedinIcon />
           </IconLink>
-          <IconLink link="https://github.com/onoja123">
+          <IconLink link="https://github.com/timothybabatu13">
             <GithubIcon />
           </IconLink>
-          <IconLink link="https://x.com/iam_the_code">
+          <IconLink link="https://x.com/timothy_akanbii">
             <TwitterIcon />
           </IconLink>
         </div>
       </div>
       <p class="text-[#c7c7c7] font-medium text-base hidden lg:flex">
-        © 2024 TIMOTHY BABATUNDE AKANBI
+        © 2025 TIMOTHY BABATUNDE AKANBI
       </p>
     </div>
     <div
@@ -156,7 +156,7 @@ onMounted(async () => {
     </button>
 
     <p class="font-medium text-base flex lg:hidden">
-      © 2024 Okpe Onoja Godwin
+      © 2025 Timothy Babatunde Akanbi
   </p>
 </div>
 
