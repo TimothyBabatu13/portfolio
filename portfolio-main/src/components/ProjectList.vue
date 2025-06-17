@@ -14,7 +14,7 @@ defineProps<{
     >
       <img
         :src="project.src"
-        class="w-80 h-80 rounded-xl object-cover object-top"
+        class="w-80 h-80 w-[90%] h-[90%] rounded-xl object-cover object-top"
       />
     </div>
     <div class="flex flex-col gap-4 max-w-2xl w-full">

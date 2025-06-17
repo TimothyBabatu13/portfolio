@@ -21,7 +21,7 @@ onMounted(async () => {
         x: 0,
         duration: 1,
         ease: "power2.out",
-        delay:0.7
+        delay: 0.7,
       }
     );
   } else {
@@ -63,11 +63,12 @@ onMounted(async () => {
     );
   });
 });
-
 </script>
 
 <template>
-  <div class="flex items-end justify-between w-full mt-20 px-4 lg:px-0 header-section">
+  <div
+    class="flex items-end justify-between w-full mt-20 px-4 lg:px-0 header-section"
+  >
     <div class="flex flex-col gap-2">
       <p class="text-base lg:text-lg font-normal">Let's get right into it!</p>
       <h2 class="text-2xl lg:text-3xl xl:text-7xl uppercase">
