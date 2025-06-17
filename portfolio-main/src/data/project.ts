@@ -3,6 +3,8 @@ import projectImage2 from "@/assets/images/project-2.jpg";
 import projectImage3 from "@/assets/images/project-3.jpg";
 import projectImage4 from "@/assets/images/project-4.jpg";
 import projectImage5 from "@/assets/images/project-5.jpg";
+import vensol from '@/assets/images/Vensol.png';
+import TokenMind from '@/assets/images/tokenMind.png'
 export type ProjectProps = {
   title: string;
   list: string[];
@@ -14,6 +16,32 @@ export type ProjectProps = {
 };
 
 export const projects: ProjectProps[] = [
+  {
+    title: "VensSol",
+    list: [
+      "Developed both the frontend and backend of decentralized platform named VenSol.",
+      `Key features: User login with their crypto wallet, sending and receiving of SOL,
+ QR code generation for bills splitting and sharing between users.`
+    ],
+    client: null,
+    link: "https://vensol.vercel.app/",
+    period: "June 2025",
+    role: "FullStack Developer",
+    src: vensol,
+  },
+  {
+    title: "TokenMind",
+    list: [
+      "Developed TokenMind - an AI-powered agent using Next.js and Vercel AI SDK.",
+      "Key features: User login with civic auth, trending token discovery, and token info retrieval by token addres",
+      "Please note that this project may not work due to GEMINI ai api rate limit"
+    ],
+    client: null,
+    link: "https://token-mind.vercel.app/",
+    period: "June 2025",
+    role: "FullStack Developer",
+    src: TokenMind,
+  },
   {
     title: "AegisHealth Smart",
     list: [
