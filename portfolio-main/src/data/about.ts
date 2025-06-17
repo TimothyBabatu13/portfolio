@@ -1,11 +1,11 @@
 export const capabilities = [
   {
     label: "Languages",
-    skills: ["Javascript", "Typescript",],
+    skills: ["Javascript", "Typescript"],
   },
   {
     label: "Frameworks",
-    skills: ["ReactJs", "NextJs", "TailwindCSS"],
+    skills: ["ReactJs", "NextJs", "TailwindCSS",  "Web3.js", "Vercel AI SDK"],
   },
   {
     label: "Tools",
