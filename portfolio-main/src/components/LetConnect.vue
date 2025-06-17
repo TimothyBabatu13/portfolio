@@ -13,7 +13,6 @@ gsap.registerPlugin(ScrollTrigger);
 const connectLeftRef = ref(null);
 const formRightRef = ref(null);
 
-
 onMounted(async () => {
   await nextTick();
 
@@ -38,7 +37,11 @@ onMounted(async () => {
         });
       },
       onComplete: function () {
-        gsap.to(connectLeftRef.value, { y: 0, duration: 0.5, ease: "power2.out" });
+        gsap.to(connectLeftRef.value, {
+          y: 0,
+          duration: 0.5,
+          ease: "power2.out",
+        });
       },
     }
   );
@@ -63,19 +66,25 @@ onMounted(async () => {
         });
       },
       onComplete: function () {
-        gsap.to(formRightRef.value, { y: 0, duration: 0.5, ease: "power2.out" });
+        gsap.to(formRightRef.value, {
+          y: 0,
+          duration: 0.5,
+          ease: "power2.out",
+        });
       },
     }
   );
 });
-
 </script>
 
 <template>
   <section
     class="flex items-start px-4 lg:px-0 flex-col lg:flex-row justify-between h-full"
   >
-    <div ref="connectLeftRef" class="flex flex-col h-full justify-between gap-8">
+    <div
+      ref="connectLeftRef"
+      class="flex flex-col h-full justify-between gap-8"
+    >
       <div class="flex flex-col gap-3">
         <h1 class="uppercase font-normal text-4xl lg:text-3xl xl:text-7xl">
           Let's Connect
@@ -96,7 +105,7 @@ onMounted(async () => {
         <p>
           For more info, here’s my
           <a
-            href="/timothy_resume.pdf"
+            href="/updated_timothy.pdf"
             download="timothy_resume.pdf"
             class="font-normal text-base border-b border-b-[#D3E97A]"
           >
@@ -104,7 +113,9 @@ onMounted(async () => {
           </a>
         </p>
         <div class="flex items-center gap-3">
-          <IconLink link="https://www.linkedin.com/in/timothy-akanbi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          <IconLink
+            link="https://www.linkedin.com/in/timothy-akanbi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >
             <LinkedinIcon />
           </IconLink>
           <IconLink link="https://github.com/timothybabatu13">
@@ -120,45 +131,44 @@ onMounted(async () => {
       </p>
     </div>
     <div
-    class="max-w-3xl lg:max-w-xl xl:max-w-3xl w-full flex flex-col gap-6 mt-4 lg:mt-0"
+      class="max-w-3xl lg:max-w-xl xl:max-w-3xl w-full flex flex-col gap-6 mt-4 lg:mt-0"
     >
-    <div class="flex flex-col gap-3">
-      <label class="font-medium text-base" for="">Name</label>
-      <input
-        type="text"
-        class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-12 w-full text-transform: capitalize"
-      />
-    </div>
-    <div class="flex flex-col gap-3">
-      <label class="font-medium text-base" for="">Email</label>
-      <input
-        type="text"
-        class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-12 w-full text-transform: capitalize"
-      />
-    </div>
-    <div class="flex flex-col gap-3">
-      <label class="font-medium text-base" for="">Subject</label>
-      <input
-        type="text"
-        class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-12 w-full text-transform: capitalize"
-      />
-    </div>
-    <div class="flex flex-col gap-3">
-      <label class="font-medium text-base" for="">Message</label>
-      <textarea
-        class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-40 w-full text-transform: capitalize"
-      ></textarea>
-    </div>
-    <button
-      class="flex item-center uppercase bg-[#D3E97A] px-10 py-5 rounded-full w-fit"
-    >
-      Submit
-    </button>
+      <div class="flex flex-col gap-3">
+        <label class="font-medium text-base" for="">Name</label>
+        <input
+          type="text"
+          class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-12 w-full text-transform: capitalize"
+        />
+      </div>
+      <div class="flex flex-col gap-3">
+        <label class="font-medium text-base" for="">Email</label>
+        <input
+          type="text"
+          class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-12 w-full text-transform: capitalize"
+        />
+      </div>
+      <div class="flex flex-col gap-3">
+        <label class="font-medium text-base" for="">Subject</label>
+        <input
+          type="text"
+          class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-12 w-full text-transform: capitalize"
+        />
+      </div>
+      <div class="flex flex-col gap-3">
+        <label class="font-medium text-base" for="">Message</label>
+        <textarea
+          class="bg-white text-[#1A1A1A] border border-[#1A1A1A] focus:border-[#1A1A1A] focus:ring-0 rounded px-4 py-3 h-40 w-full text-transform: capitalize"
+        ></textarea>
+      </div>
+      <button
+        class="flex item-center uppercase bg-[#D3E97A] px-10 py-5 rounded-full w-fit"
+      >
+        Submit
+      </button>
 
-    <p class="font-medium text-base flex lg:hidden">
-      © 2025 Timothy Babatunde Akanbi
-  </p>
-</div>
-
+      <p class="font-medium text-base flex lg:hidden">
+        © 2025 Timothy Babatunde Akanbi
+      </p>
+    </div>
   </section>
 </template>
